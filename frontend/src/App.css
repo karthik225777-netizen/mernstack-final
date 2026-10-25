@@ -1,0 +1,47 @@
+.form-actions,
+.action-buttons {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.cancel-btn,
+.edit-btn,
+.delete-btn {
+  border: none;
+  padding: 9px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.cancel-btn {
+  background: #e2e8f0;
+  color: #334155;
+}
+
+.edit-btn {
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+
+.delete-btn {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.cancel-btn:hover {
+  background: #cbd5e1;
+}
+
+.edit-btn:hover {
+  background: #bfdbfe;
+}
+
+.delete-btn:hover {
+  background: #fecaca;
+}
+
+.action-buttons {
+  white-space: nowrap;
+}
